@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: systemuser
+    password: 5835
+    url: jdbc:mysql://localhost:3306/weixintable?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+  jpa:
+    show-sql: true
+
+server:
+  servlet-path: /sell
+  port: 8888
+
+
